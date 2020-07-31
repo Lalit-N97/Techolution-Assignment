@@ -7,7 +7,7 @@ app.get("/api/students", (req, res) => {
   res.status(200).send(data);
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log("Server running at port ", PORT);
 });

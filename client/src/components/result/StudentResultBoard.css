@@ -1,0 +1,47 @@
+.tableContainer {
+  height: 20rem;
+  width: 50rem;
+  border-collapse: collapse;
+  margin: 3rem 0 0 10rem;
+  border-bottom: 2px solid #7c86bb;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.35);
+}
+
+.table-heading {
+  max-width: inherit;
+  background-color: rgb(185, 151, 216);
+  font-size: 2rem;
+}
+
+.table-heading th {
+  padding: 0.5rem;
+}
+
+.table-subHeading {
+  background-color: rgb(147, 103, 165);
+  font-style: italic;
+  text-align: left;
+  font-size: 1.1rem;
+}
+.table-subHeading th {
+  padding: 0.1rem;
+}
+
+.table-body {
+  color: lightslategray;
+}
+
+.table-body tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
