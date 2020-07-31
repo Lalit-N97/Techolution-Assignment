@@ -1,4 +1,4 @@
-const students = [
+const studentsData = [
   {
     name: "rajiv",
     marks: {
@@ -26,6 +26,33 @@ const students = [
     },
     rollNumber: "KV2017-5A3",
   },
+  {
+    name: "shakti",
+    marks: {
+      Maths: "42",
+      English: "31",
+      Science: "40",
+    },
+    rollNumber: "KV2017-5A6",
+  },
+  {
+    name: "silviya",
+    marks: {
+      Maths: "42",
+      English: "41",
+      Science: "50",
+    },
+    rollNumber: "KV2017-5A4",
+  },
+  {
+    name: "dustin",
+    marks: {
+      Maths: "42",
+      English: "31",
+      Science: "10",
+    },
+    rollNumber: "KV2017-5A5",
+  },
 ];
 
-module.exports = { students };
+module.exports = { studentsData };

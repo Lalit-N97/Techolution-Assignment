@@ -1,3 +1,12 @@
 .main {
-  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32.8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgba(149, 75, 245, 0.4),
+    rgba(183, 0, 255, 0.479)
+  );
 }

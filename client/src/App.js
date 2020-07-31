@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import AdmissionForm from "./components/forms/AdmissionForm";
+import AdmissionForm from "./components/form/AdmissionForm";
 import Home from "./components/home/Home";
 import StudentResultBoard from "./components/result/StudentResultBoard";
 import Header from "./components/shared/Header";

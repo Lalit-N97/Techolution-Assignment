@@ -5,7 +5,7 @@ import "./style.css";
 const Header = () => {
   return (
     <header className="header">
-      <Link class="brand" to="/">
+      <Link className="brand" to="/">
         Home
       </Link>
       <Link className="header-links" to="/result">

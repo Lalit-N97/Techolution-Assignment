@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { studentsData } from "./data";
 import "./StudentResultBoard.css";
 
 class StudentResultBoard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      students: [...studentsData],
+      students: [],
     };
     this.compare = this.compare.bind(this);
     this.setTotalMarks = this.setTotalMarks.bind(this);
@@ -15,9 +14,11 @@ class StudentResultBoard extends Component {
     this.setStatus = this.setStatus.bind(this);
   }
 
-  componentDidMount() {
-    // const response = await axios.get("/api/students");
-    // console.log(response);
+  async componentDidMount() {
+    const { data } = await axios.get("/api/students");
+    // studentsData is the array of students info in our API
+    this.setState({ students: data.studentsData });
+    // console.log(this.state);
     this.state.students.sort(this.compare);
     this.setTotalMarks(this.state.students);
     this.setStatus(this.state.students);

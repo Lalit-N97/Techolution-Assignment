@@ -1,0 +1,21 @@
+.container {
+  margin-bottom: 15rem;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.message {
+  font-size: 1.3rem;
+  padding: 1rem;
+}
+
+.instruction {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 2rem;
+}
+
+.container span {
+  font-style: italic;
+  font-weight: bold;
+}
